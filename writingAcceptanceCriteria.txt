@@ -1,0 +1,10 @@
+Part One: Writing Acceptance Criteria 
+
+1. Display images for the product are visible so customers are able to view what they may purchase 
+2. Display the average product rating with ability to check reviews
+3. Display price of the product
+4. Quantity is able to be adjusted for users purchasing more than one product 
+5. Product availability is displayed based off 'My Store' selection
+6. Additional products are displayed More to Consider Similar Items, and Featured Products
+7. Additional products are displayed Similar Items
+8. Additional products are displayed Featured Products

@@ -1,0 +1,199 @@
+Part Two: Writing Test Cases 
+
+Title:
+    Breadcrumb Navigation
+Summary/Description: 
+    As a customer, I want to use breadcrumb navigation so that I can find similar products quickly
+Precondition(s): 
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage 
+Test Steps: 
+    1. Near the top left of the screen click on the 'Toasters' breadcrumb
+    2. Verify you are redirected to the Toasters search results page
+Expected Results: 
+    The customer is returned to the toaster search which contains results for all toasters 
+
+Title: 
+    Image preview changes 
+Summary/Description: 
+    As a customer, I want to view all images associated with a product so I can better understand what I may potentially purchase 
+Precondition(s): 
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. On the left side of the page click the second image in of the product 
+    2. Verify the display image change to the image that was clicked
+    3. Repeat for remaining thumbnail images (not videos)
+    4. Verify the display image changes to the image that was clicked
+Expected Results: 
+    When clicking on a thumbnail image other than the currently displayed image the newly selected image is now displayed. 
+
+Title: 
+    Image preview zooms 
+Summary/Description: 
+    As a customer, I want to zoom in on an image associated with a product so I can get a closer look at what I may potentially purchase 
+Precondition(s): 
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Hover over the display image
+    2. Verify the display image is zoomed in on in the mouse pointer location 
+    3. Remove the cursor from the image area
+    4. Verify the display image is zoomed out to normal
+Expected Results: 
+    When hovering on a display image you are zoomed in while the cursor is on the image 
+
+Title: 
+    Full screen image/video preview
+Summary/Description: 
+    As a customer, I want the ability to view all images in a large view so I can better understand what I may potentially purchase 
+Precondition(s): 
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Click the larger image
+    2. Verify you see a zoomed image carousel
+    3. Click the last image available 
+    4. Verify the image is changed to the image that was clicked 
+    5. Click the '<' button on the left hand side of the screen
+    6. Verify it navigates to the previous image/video
+    7. Click the '>' on the right hand side of the screen
+    8. Verify it navigates to the next image/video
+    9. Click the 'X' button in the top right
+    10. Verify the full screen image preview is closed 
+Expected Results: 
+    When clicking on a display image you get a zoomed image carousel to view images 
+
+Title: 
+    Quantity is properly added to cart 
+Summary/Description: 
+    As a customer, I want the selected quantity to properly add to the cart so I see my correct item count
+Precondition(s): 
+    Customers cart is empty 
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Click the 'Quantity' dropdown
+    2. Verify the dropdown contains numbers 1-99
+    3. Select '2' from the dropdown 
+    4. Click the 'Ship It' button on the right hand side of the page
+    5. Verify the cart in the upper right has a quantity of '2' 
+    6. Select '1' from the 'Quantity' dropdown
+    7. Click the 'Ship It' button on the right hand side of the page
+    8. Verify the cart in the upper right has a quantity of '3'
+Expected Results: 
+    When adding items to the cart in different quantities the cart displays the correct number of products 
+
+Title: 
+    About this item - Details 
+Summary/Description: 
+    As a customer, I want to know more about the product I am looking at so I can determine if it meets my needs 
+Precondition(s):
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Scroll down the page to the 'About this item' section
+    2. Verify you see 3 sections (Details, Shipping & Returns, Q&A)
+    3. Click the 'Show more' button on the lower right side of the 'About this item' section
+    4. Verify the product Specifications and Description are displayed
+    5. Click the 'Show less' button on the lower right side of the 'About this item' section
+    6. Verify the product SPecifications and Description are collapsed 
+Expected Results: 
+    When looking at the product details you are able to expand / collapse to see more or less information 
+
+Title: 
+    About this item - Shipping & Returns  
+Summary/Description: 
+    As a customer, I want to know more about the shipping timeline so I can see if it will arrive in time for my needs
+Precondition(s):
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Scroll down the page to the 'About this item' section
+    2. Click on the 'Shipping & Returns section
+    3. Verify Shipping options, details and return information are all displayed
+    4. Click on the 'return policy' link
+    5. Verify you are navigated to a more in depth return policy 
+Expected Results: 
+    When looking at the Shipping & Returns information you can see when the product will arrive and what the return policy is
+
+Title: 
+    About this item - Q&A 
+Summary/Description: 
+    As a customer, I want to know questions about the product that customers have asked so I can have my concerns addressed 
+Precondition(s):
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Scroll down the page to the 'About this item' section
+    2. Click on 'Q&A' 
+    3. Verify you are able to see user questions and answers (if the question is answered)
+    4. Click 'See all questions' 
+    5. Verify all questions are displayed about the product (even unanswered)
+Expected Results: 
+    When looking through Q&A you can see all questions and answers for each question (unless unanswered)
+
+Title: 
+    Average Star Rating
+Summary/Description: 
+    As a customer, I want to view the average product rating so I can have an idea of the product quality
+Precondition(s): 
+    N/A
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Click the 'star rating' icon 
+    2. Verify the 1-5 star rating breakdown is displayed
+    3. Click the 'star rating' icon again
+    4. Verify the rating breakdown is closed 
+Expected Results: 
+    When looking at the average rating of a product you can see the rating breakdown 
+
+Title: 
+    Filter by rating - popup 
+Summary/Description: 
+    As a customer, I want to be able to sort reviews so I can quickly find the good/bad about a product 
+Precondition(s): 
+    N/A 
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Click the 'star rating' icon
+    2. Click on '5 stars' in the popup 
+    3. Verify the page is scrolled to down and sorted by '5 stars'
+    4. Click the 'star rating' icon again
+    5. Click on '4 stars' in the popup 
+    6. Verify the page is scrolled down and only sorted by '4 stars' 
+    7. Click the 'star rating' icon one last time
+    8. Click 'Show all reviews' in the popup 
+    9. Verify all reviews are displayed (1-5 stars)
+Expected Results: 
+    When looking at the star rating popup you can sort by star rating
+
+Title: 
+    Filter by rating - dropdown 
+Summary/Description: 
+    As a customer, I want to be able to sort reviews so I can quickly find the good/bad about a product 
+Precondition(s): 
+    N/A 
+Assumptions: 
+    Customer is already on the Cuisinart 2-Slice Classic Toaster webpage
+Test Steps: 
+    1. Scroll down the page to the 'Guest Ratings & Reviews' section
+    2. Click the 'filter by all ratings' dropdown
+    3. Click the '1 stars' checkbox 
+    4. Verify one star reviews are displayed 
+    5. Click the 'filter by 1 stars' dropdown
+    6. Select '2 stars' in addition to '1 stars' 
+    7. Verify both 1 and 2 star reviews are displayed
+    8. Click the 'x' next to '1 star' beside the filter dropdown
+    9. Verify only '2 star' reviews are displayed 
+Expected Results: 
+    When looking at ratings you are able to sort with the filter by all ratings dropdown 
